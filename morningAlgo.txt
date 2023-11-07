@@ -1,0 +1,30 @@
+Algoritmo RotinaDeAcordar
+Declare
+   horaAtual: inteiro
+Inicio
+   Escreva("Bom dia!")
+   
+   horaAtual <- ObterHoraAtual()  
+   
+   Se horaAtual < 6 Entao
+      Ainda está escuro lá fora. Vou voltar a dormir por um tempo.
+   Senao Se horaAtual < 7 Entao
+      Ainda é cedo. Vou continuar dormindo um pouco mais.
+   Senao Se horaAtual < 8 Entao
+      Hora de levantar! Vou me arrumar para o dia.
+      Levantar da cama 
+      Vestir uma roupa 
+      Descer a escada
+      Cozinhar cafe da manha 
+      Comer 
+      Escovar os dentes 
+      Trabalhar 
+   Senao
+      Já está tarde! Vou levantar e começar o dia.
+      Levantar da cama 
+      Vestir uma roupa
+      Trabalhar
+   
+   
+   
+  
